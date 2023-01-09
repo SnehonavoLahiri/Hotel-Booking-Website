@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions</title>
+    <link rel="stylesheet" href="tcStyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <h1>Terms And Conditions</h1>
+
+               <p class="text">No gatherings and parties of any nature are allowed in the room. The Hotel reserves the right to evict any additional occupants in the room.
+                This reservation is not transferable.
+                In the event of no-show, a fee of one night’s room charge (inclusive of any applicable prevailing government tax) will be charged to your credit card provided at the time of reservation or as per any revised conditions of booking as per the offer.
+                Hotel reserves the right to send guests away from the Hotel due to their conduct and behaviour or for any other safety, security, medical reasons. This applies in particular, if Guests do not observe instructions given by Hotel employees, express themselves in a discriminating manner, harass or endanger other guests.
+                Guests will not be permitted to compromise the health, safety and security aspects of the Hotel at any point of time.In case the items you wish to store are exceptionally valuable you must notify the hotel before storing.</p>               
+                
+                               
+                
+                <span id="More">
+                <h1>General Provisions</h1>
+              
+                <p class="text">By proceeding with the reservation, you further agree and acknowledge that if the reservation is accepted by the Hotel, your stay subsequently shall be subject to the Hotel’s Standard Terms and Conditions in respect of their reservation / stay at the Hotel.
+                  You further agree that the General Terms and Conditions as provided before shall constitute the binding agreement between yourself and Hotel Dreamland in relation to any and all commercial arrangement including reservation, stay, payment, usage of facilities, etc. of whatsoever nature.
+                  The Hotel may, at its absolute discretion, cancel the reservation if the Hotel is of the opinion that the reservation information provided is falsified or incomplete.
+                  Guest voluntarily agrees and permits the Hotel representatives to profile the guest from the public domain to ascertain the details of the guest and render adequate hospitality services to them during their stay in the hotel.
+                  The Hotel shall be entitled to vary, amend and/or otherwise change these terms and conditions at any time without prior notice.</p>                 
+                         
+               
+                </span>
+                <button onclick="myFunction()" id="Morebutton">Read More</button>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+          var text = document.getElementsByClassName("text");
+          var moreText = document.getElementById("More");
+          var btnText = document.getElementById("Morebutton");
+        
+          if (moreText.style.display == "none") {
+             moreText.style.display = "inline";
+            btnText.innerHTML = "Read Less"; 
+            moreText.style.display = "inline";
+          } else {
+            moreText.style.display = "none";
+             btnText.innerHTML = "Read More";
+             text.style.display = "inline";
+          }
+        }
+        </script>
+    
+</body>
+</html>

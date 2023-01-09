@@ -1,0 +1,24 @@
+.images-gallary{
+    width: 100%;
+    padding: 20px;
+}
+.image-box{
+    width: 22%;
+    height: auto;
+    border: 2px solid black;
+    margin: 10px;
+    background: url(picture/H12.jpg);
+    background-size: cover;
+    background-position: center;
+    display:inline-block;
+    overflow: hidden;
+}
+.image-box img{
+    width: 100%;
+    max-width: 100%;
+    opacity: 1;
+}
+.image-box: :hover img{
+    opacity: .6;
+    transition: opacity 800ms linear;
+}
